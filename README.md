@@ -1,4 +1,4 @@
-# analisis-ibex35-python :)
+# analisis-ibex35-python
 Mini proyecto / práctica universitaria: análisis del IBEX 35 en Python con consultas, métricas de cotización y gráfico de evolución.
 Este repositorio contiene un pequeño proyecto desarrollado como práctica del Grado en Ciencia de Datos.  
 El objetivo es trabajar con datos históricos del **IBEX 35**, cargarlos desde un fichero y analizarlos mediante diferentes consultas y visualizaciones usando Python.
