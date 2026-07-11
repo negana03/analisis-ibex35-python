@@ -6,7 +6,7 @@
 
 Un histórico de cotizaciones en bruto (6.090 sesiones, de enero de 2000 a diciembre de 2023) no dice nada por sí solo. Este programa lo convierte en respuestas concretas a preguntas de análisis financiero: ¿cuánto llegó a caer el IBEX en una semana concreta? ¿cuánto volumen se negoció en un periodo? ¿cómo evolucionó la cotización entre dos fechas?
 
-Como muestra de esto, el propio dataset contiene un caso de prueba de manual: el **24 de junio de 2016** (día después del referéndum del Brexit) registra una caída del **-12,35% en una sola sesión**, con un volumen **5,5 veces superior** a la media histórica diaria — el programa detecta y cuantifica este tipo de eventos sin necesidad de buscarlos a mano.
+Como muestra de esto, el propio dataset contiene un caso de prueba de manual: el **24 de junio de 2016** (día después del referéndum del Brexit) registra una caída del **-12,35% en una sola sesión**, con un volumen **5,5 veces superior** a la media histórica diaria, el programa detecta y cuantifica este tipo de eventos sin necesidad de buscarlos a mano.
 
 ## Qué hace
 
@@ -48,7 +48,7 @@ analisis-ibex35-python/
 
 ## Sobre los datos
 
-El dataset contiene cotizaciones diarias del IBEX 35 (fuente: Investing.com) con las columnas fecha, precio de apertura, cierre, máximo, mínimo, volumen negociado y variación porcentual diaria. El programa se encarga de limpiar el formato numérico europeo (separador de miles con punto, decimales con coma) y de normalizar el volumen negociado, expresado indistintamente en millones (M) o miles de millones (B), a una única unidad.
+El dataset contiene cotizaciones diarias del IBEX 35 con las columnas fecha, precio de apertura, cierre, máximo, mínimo, volumen negociado y variación porcentual diaria. El programa se encarga de limpiar el formato numérico europeo (separador de miles con punto, decimales con coma) y de normalizar el volumen negociado, expresado indistintamente en millones (M) o miles de millones (B), a una única unidad.
 
 ## Notas de diseño
 
